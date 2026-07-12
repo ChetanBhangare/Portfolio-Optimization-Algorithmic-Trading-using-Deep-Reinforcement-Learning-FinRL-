@@ -1,0 +1,8 @@
+finrl
+stable-baselines3
+pandas
+numpy
+scipy
+pyportfolioopt
+matplotlib
+yfinance
