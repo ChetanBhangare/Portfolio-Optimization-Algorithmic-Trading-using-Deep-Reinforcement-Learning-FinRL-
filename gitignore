@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.matplotlib_cache/
+
+# Cached market data (large, regenerable)
+data/
+
+# Trained models (large binaries)
+trained_models/
+
+# TensorBoard logs
+tensorboard_logs/
+tensorboard_log/
+
+# Generated per-agent results (keep only the summary + plots you want to showcase)
+results/df_account_value_*.csv
+results/df_actions_*.csv
+
+# OS / editor files
+.DS_Store
+.vscode/
+*.log
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
